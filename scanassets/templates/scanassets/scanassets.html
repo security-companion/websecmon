@@ -3,5 +3,20 @@
 {% block content %}
 
 <h1>Scan assets template</h1>
+<p>Hello, you are on the {{message}} page</p>
+
+{% if number > 10 %}
+<p>greater 10</p>
+{% else %}
+<p>less 10</p>
+{% endif %}
+
+<h1>Scanassets</h1>
+
+<ul>
+    {% for scanasset in scanassets %}
+    <li>Title:<a href="{% url 'scanasset' scanasset.id %}">{{scanasset.title}}</a> --- {{scanasset.description}}</li>
+    {% endfor %}
+</ul>
 
 {% endblock content %}
