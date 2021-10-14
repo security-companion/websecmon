@@ -2,6 +2,8 @@
 Welcome to Websecmon's documentation!
 =====================================
 
+.. warning:: This documentation is still work in progress
+
 .. With Websecmon you can scan your website or a website you are in charge of for security issues.
 
 In order to use the tool you first need to install it on a server or use the hosted version on TODO
