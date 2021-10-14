@@ -9,9 +9,10 @@ Welcome to Websecmon's documentation!
 In order to use the tool you first need to install it on a server or use the hosted version on TODO
 
 Once you register your username you can add a website to check.
-Before it being scanned you need to confirm the right to do so by 
-* verifying that you have access to a mail-address that is part of the domain-name you want to scan.
-* adding a certain file that websec provides to the webspace of the domain
+Before it being scanned you need to confirm the right to do so by
+
+- verifying that you have access to a mail-address that is part of the domain-name you want to scan.
+- adding a certain file that websec provides to the webspace of the domain
 
 .. toctree::
    :maxdepth: 2
