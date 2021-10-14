@@ -1,3 +1,6 @@
 *.pyc
 /*.env
 .secret.txt
+/docs/_build
+/docs/_templates
+/docs/_static
